@@ -302,8 +302,7 @@ def run(args, transforms=None):
                 force_download=True
             )
             tokenizer_path = os.path.join(local_dir, "tokenizer.spm")
-            tokenizer = XLMRobertaTokenizer(tokenizer_path)
-
+            tokenizer = XLMRobertaTokenizer(vocab_file=tokenizer_path)
             img_size = 384 if '384' in args.model else 224
 
             transform = torchvision.transforms.Compose([
