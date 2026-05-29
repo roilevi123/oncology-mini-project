@@ -64,3 +64,6 @@ downloads
 *.json
 !zero2_config.json
 pretrain/
+
+# Local demo folder
+downstreams_demo/

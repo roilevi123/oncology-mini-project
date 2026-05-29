@@ -250,6 +250,10 @@ def run(args, transforms=None):
                     "unitopatho": f"{data_root}/unitopatho/unitopath-public",
                     "unitopatho_retrieval": f"{data_root}/unitopatho/unitopath-public",  # image2image retrieval
                     "pathmmu_retrieval": f"{data_root}/PathMMU",   # cross-modal retrieval
+                    "mhist": f"{data_root}/mhist",
+                    "lc25000": f"{data_root}/lc25000",
+                    "pvqa": f"{data_root}/pvqa",
+                    "custom_csv": data_root
                     }
     
     dataset_root = dataset_path[dataset_name]
