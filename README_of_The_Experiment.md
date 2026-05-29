@@ -1,5 +1,5 @@
 # the place of the code 
-in the folder 
+in the folder benchmarks/demo.ipynb
 
 # Downstream Datasets Setup Guide & Data Structure
 
